@@ -1,0 +1,19 @@
+{
+  "name": "mutant-year-zero-bot",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Charlotte Hamilton / charlotte@foxfyrestudios.com",
+  "description": "A Discord Dice Bot for Mutant: Year Zero",
+  "main": "mutant.js",
+  "scripts": {
+    "start": "nodemon mutant.js localhost 8080"
+  },
+  "dependencies": {
+    "discord.js": "11.4.2",
+    "express": "4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": ["discord", "Mutant Year Zero", "bot"]
+}
